@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans';
+    box-sizing: border-box;
+}
+body {
+    background: #F3F2FA;
+}
+.container {
+    display: grid;
+    place-items: center;
+}
+header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #E4E3EB;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1045px;
+}
+.himg {
+    border: none;
+    outline: none;
+}
+.Hbut {
+    border-radius: 8px;
+    background: #5D37F3;
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.enter {
+    color: #FFF;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+}
+.BAP {  
+    margin-top: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 426px;
+}
+.Bh1 {
+    color: #1A1A1F;
+    font-family: 'Fira Sans';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; 
+}
+.colection {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+}
+.m1 {
+    color: #D6961C;
+    font-family: 'Fira Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; 
+}
+.m2 {
+    color: #15C972;
+    font-family: 'Fira Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; 
+}
+.m3 {
+    color: #B71FDD;
+    font-family: 'Fira Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; 
+}
+.m4 {
+    color: #DC2828;
+    font-family: 'Fira Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; 
+}
+.m5 {
+    color: #60BE16;
+    font-family: 'Fira Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; 
+}
+.m6 {
+    color: #1AC7A8;
+    font-family: 'Fira Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; 
+}
+.bc {
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid #E9EFE9;
+}
+.bc:hover{
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: #E9EFE9;
+}
+.infoCont {
+    display: grid;
+    place-items: center;
+    grid-template-areas: 'erti ori sami';
+    margin-top: 64px;
+    column-gap: 32px;
+}
+.inOne {
+    grid-area: erti;
+}
+.intwo {
+    grid-area: ori;
+}
+.inthre {
+    grid-area: sami;
+}
+.inImg {
+    width: 408px;
+    height: 328px;
+}
+.name {
+    margin-top: 24px;
+    color: #1A1A1F;
+    font-family: 'Fira Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.date {
+    margin-top: 8px;
+    color: #85858D;
+    font-family: 'Fira Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+}
+.infoHeader {
+    margin-top: 16px;
+    width: 408px;
+    color: #1A1A1F;
+    font-family: 'Fira Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.butOne {
+    margin-top: 16px;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid #E9EFE9;
+}
+.butOne:hover{
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: #EEE1F7;
+}
+.buttwo {
+    margin-left: 16px;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid #E9EFE9;
+}
+.buttwo:hover{
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: #EEE1F7;
+}
+.butthre {
+    margin-left: 16px;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid #E9EFE9;
+}
+.butthre:hover{
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: #EEE1F7;
+}
+.iInfo {
+    margin-top: 16px;
+    width: 408px;
+    color: #404049;
+    font-family: 'Fira Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+.aForall {
+    color: #5D37F3;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+}
+.LinkArrow {
+    position: absolute;
+    cursor: pointer;
+}
