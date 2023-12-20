@@ -270,6 +270,9 @@ header {
 .popInfo.active {
     transform: translate(-50%,-50%) scale(1);
 }
+.disBlock {
+    display: block;
+}
 .poph1 {
     color: #1A1A1F;
     text-align: center;
@@ -278,7 +281,7 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: 32px; 
-    margin-top: 30px;
+    margin-top: -10px;
 }
 .poph2 {
     color: #1A1A1F;
@@ -287,9 +290,12 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 20px; 
-    margin-left: -350px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
 }
 .popinput {
+    margin-top: 40px;
     color: #85858D;
     font-family: FiraGO;
     font-size: 14px;
@@ -322,7 +328,7 @@ input[type=email]{
     border: none;
     outline: none;
     cursor: pointer;
-    margin-bottom: 40px;
+    margin-top: 20px;
 }
 .popsptx {
     color: #FFF;
@@ -337,7 +343,7 @@ input[type=email]{
     justify-content: center;
     align-items: center;
     margin-left: -280px;
-    margin-top: -5px;
+    margin-top: 5px;
     display:none ;
 }
 .errorPosta {
@@ -362,4 +368,69 @@ input[type=email]{
 #blur.active {
     pointer-events: all;
     opacity: 0.24;
+}
+.addBlog {
+    margin-left: 1200px;
+    margin-top: -80px;
+    display: none;
+}
+.ABB {
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #5D37F3;
+    border: none;
+    outline: none;
+}
+.ABS {
+    color: #FFF;
+    font-family: FiraGO;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+}
+.succsessLogin {
+    display: grid;
+    place-items: center;
+    display: none;
+}
+.SIMG {
+    margin-top: 20px;
+}
+.SLh1 {
+    margin-top: 30px;
+    color: #1A1A1F;
+    text-align: center;
+    font-family: FiraGO;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+}
+.SLB {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    width: 432px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #5D37F3;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.SLS {
+    color: #FFF;
+    font-family: FiraGO;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
 }
