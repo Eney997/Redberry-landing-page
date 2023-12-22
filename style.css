@@ -370,9 +370,8 @@ input[type=email]{
     opacity: 0.24;
 }
 .addBlog {
-    margin-left: 1200px;
-    margin-top: -80px;
     display: none;
+    margin-left: -55px;
 }
 .ABB {
     display: inline-flex;
@@ -396,6 +395,11 @@ input[type=email]{
 .succsessLogin {
     display: grid;
     place-items: center;
+    width: 480px;
+    height: 272px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
     display: none;
 }
 .SIMG {

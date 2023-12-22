@@ -35,3 +35,7 @@ function closeModal(modal) {
     modal.classList.remove('active');
     blur.classList.remove('active');
 }
+
+
+
+
