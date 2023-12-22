@@ -129,3 +129,48 @@ function isValidEmail(email) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
 }
+
+
+
+    const apiURL2 = 'https://api.blog.redberryinternship.ge/api/categories';
+    const token2 = '06c849e6edaa8a40645ce20d6918e3815b03cffe83472ce974b896837bc18b1e';
+
+    // fetch
+    async function fetchData() {
+        try {
+            const response = await fetch(apiURL2, {
+                headers: {
+                    'Authorization': `Bearer ${token2}`
+                }
+            });
+            const data = await response.json();
+            return data.data;
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        }
+    }
+
+    // button update
+    function updateButton(buttonId, category) {
+        const button = document.getElementById(buttonId);
+        if (button) {
+            button.textContent = category.title;
+            button.style.color = category.text_color;
+            button.style.backgroundColor = category.background_color;
+        }
+    }
+
+    // kategoriebis update
+    async function updateButtons() {
+        const categories = await fetchData();
+        categories.forEach((category, index) => {
+            const buttonId = `m${index + 1}`;
+            updateButton(buttonId, category);
+        });
+    }
+
+    updateButtons();
+
+
+
+

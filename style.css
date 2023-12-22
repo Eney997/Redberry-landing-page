@@ -68,54 +68,6 @@ header {
     align-items: center;
     column-gap: 24px;
 }
-.m1 {
-    color: #D6961C;
-    font-family: 'Fira Sans';
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px; 
-}
-.m2 {
-    color: #15C972;
-    font-family: 'Fira Sans';
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px; 
-}
-.m3 {
-    color: #B71FDD;
-    font-family: 'Fira Sans';
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px; 
-}
-.m4 {
-    color: #DC2828;
-    font-family: 'Fira Sans';
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px; 
-}
-.m5 {
-    color: #60BE16;
-    font-family: 'Fira Sans';
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px; 
-}
-.m6 {
-    color: #1AC7A8;
-    font-family: 'Fira Sans';
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px; 
-}
 .bc {
     display: flex;
     padding: 8px 16px;
@@ -187,13 +139,6 @@ header {
 }
 .butOne {
     margin-top: 16px;
-    align-items: flex-start;
-    gap: 20px;
-    border-radius: 30px;
-    outline: none;
-    cursor: pointer;
-    border-radius: 30px;
-    border: 1px solid #E9EFE9;
 }
 .butOne:hover{
     border-radius: 30px;
@@ -202,13 +147,6 @@ header {
 }
 .buttwo {
     margin-left: 16px;
-    align-items: flex-start;
-    gap: 20px;
-    border-radius: 30px;
-    outline: none;
-    cursor: pointer;
-    border-radius: 30px;
-    border: 1px solid #E9EFE9;
 }
 .buttwo:hover{
     border-radius: 30px;
@@ -217,13 +155,6 @@ header {
 }
 .butthre {
     margin-left: 16px;
-    align-items: flex-start;
-    gap: 20px;
-    border-radius: 30px;
-    outline: none;
-    cursor: pointer;
-    border-radius: 30px;
-    border: 1px solid #E9EFE9;
 }
 .butthre:hover{
     border-radius: 30px;
